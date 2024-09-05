@@ -1,7 +1,7 @@
 import React from 'react';
 // Internal Components
-import ScreenLayout from '../../components/Containers/ScreenLayout/ScreenLayout.tsx';
-import ContactForm from '../../components/Forms/ContactForm/ContactForm.tsx';
+import ScreenLayout from '@/components/Containers/ScreenLayout/ScreenLayout';
+import ContactForm from '@/components/Forms/ContactForm/ContactForm';
 
 const ContactUsScreen = () => {
 

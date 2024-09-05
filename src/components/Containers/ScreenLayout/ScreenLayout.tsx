@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from './ScreenLayout.module.css';
+import styles from '@/components/Containers/ScreenLayout/ScreenLayout.module.css';
 // Internal Components
-import ResponsiveAppBar from '../../ResponsiveAppBar/ResponsiveAppBar.tsx';
-import Footer from '../../Footer/Footer.tsx';
+import ResponsiveAppBar from '@/components/ResponsiveAppBar/ResponsiveAppBar';
+import Footer from '@/components/Footer/Footer';
 
-const ScreenLayout = ({ children }) => {
+const ScreenLayout: React.FC<React.PropsWithChildren<{}>> = ({ children }) => {
   return (
     <div className={styles.container}>
       <div className={styles.contentContainer}>

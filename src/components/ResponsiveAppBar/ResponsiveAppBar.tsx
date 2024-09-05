@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './ResponsiveAppBar.module.css';
 // Internal Assets
-import amberAILogo from '../../assets/images/brand/logos/amber-ai-logo.png';
+import amberAILogo from '@/assets/images/brand/logos/amber-ai-logo.png';
 // Internal Lists
-import appBarNavigation from '../../lists/appBarNavigation.tsx';
+import appBarNavigation from '@/lists/appBarNavigation';
 // Material UI
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -30,7 +30,7 @@ const ResponsiveAppBar = () => {
     }
   };
 
-  const handleCloseNavMenu = (route) => {
+  const handleCloseNavMenu = (route: string | undefined | null) => {
     setAnchorElNav(null)
     if (route) {
       window.location.href = route

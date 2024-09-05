@@ -1,8 +1,8 @@
 // Screens
-import HomeScreen from './screens/Home/Home.tsx';
-import ProductScreen from './screens/Product/Product.tsx';
-import WhyAmberScreen from './screens/WhyAmber/WhyAmber.tsx';
-import ContactUsScreen from './screens/ContactUs/ContactUs.tsx';
+import HomeScreen from '@/screens/Home/Home.tsx';
+import ProductScreen from '@/screens/Product/Product.tsx';
+import WhyAmberScreen from '@/screens/WhyAmber/WhyAmber.tsx';
+import ContactUsScreen from '@/screens/ContactUs/ContactUs.tsx';
 // Material UI
 import { StyledEngineProvider } from '@mui/material/styles';
 import { createTheme, ThemeProvider } from '@mui/material/styles';

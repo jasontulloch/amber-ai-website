@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './WhyAmber.module.css'
 // Internal Lists
-import whyAmberList from '../../../assets/text/whyAmber.tsx';
+import whyAmberList from '@/assets/text/whyAmber';
 // Material UI
 import { Grid2, Typography } from "@mui/material"
 
