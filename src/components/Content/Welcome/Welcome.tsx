@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import styles from './Welcome.module.css'
 // Internal Assets
 import welcomeHighlightedMessagesTextList from '@/assets/text/welcomeHighlightedMessagesTextList';
+import learning from '@/assets/images/demo/learning.jpeg';
 // Material UI
 import { Box, Button, Grid2, Typography } from "@mui/material"
-import learning from '@/assets/images/demo/learning.jpeg';
 
 const Welcome = () => {
   const [text, setText] = useState('');
