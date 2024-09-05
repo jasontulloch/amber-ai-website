@@ -4,7 +4,7 @@ import styles from './Welcome.module.css'
 import welcomeHighlightedMessagesTextList from '@/assets/text/welcomeHighlightedMessagesTextList';
 // Material UI
 import { Box, Button, Grid2, Typography } from "@mui/material"
-import learning from '../../../assets/images/demo/learning.jpeg';
+import learning from '@/assets/images/demo/learning.jpeg';
 
 const Welcome = () => {
   const [text, setText] = useState('');
