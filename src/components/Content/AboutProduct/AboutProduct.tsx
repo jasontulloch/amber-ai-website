@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './AboutProduct.module.css'
 // Internal Assets
-import aboutProductTextList from '../../../assets/text/aboutProductTextList.tsx';
-import aboutProductTextHeaders from '../../../assets/text/aboutProductTextHeaders.tsx';
+import aboutProductTextList from '@/assets/text/aboutProductTextList';
+import aboutProductTextHeaders from '@/assets/text/aboutProductTextHeaders';
 // Material UI
 import { Grid2, Typography } from "@mui/material"
 import TvIcon from '@mui/icons-material/Tv';

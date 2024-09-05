@@ -3,7 +3,11 @@ import styles from './PageHeader.module.css';
 // Material UI
 import { Typography } from '@mui/material';
 
-const PageHeader = ({ header }) => {
+interface PageHeaderProps {
+    header: string
+}
+
+const PageHeader = ({ header }: PageHeaderProps) => {
     return (
         <Typography className={styles.text}>{header}</Typography>
     )

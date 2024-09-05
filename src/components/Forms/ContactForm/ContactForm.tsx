@@ -5,7 +5,7 @@ import { Box, TextField, Button, Typography } from '@mui/material';
 
 const ContactForm = () => {
 
-  const handleSubmit = (event) => {
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     // Handle form submission
   };

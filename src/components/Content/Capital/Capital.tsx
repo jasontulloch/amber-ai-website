@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './Capital.module.css'
 // Internal Assets
-import generalCatalyst from '../../../assets/images/thirdParties/general-catalyst-logo.jpg';
-import yCombinator from '../../../assets/images/thirdParties/y-combinator-logo.png';
+import generalCatalyst from '@/assets/images/thirdParties/general-catalyst-logo.jpg';
+import yCombinator from '@/assets/images/thirdParties/y-combinator-logo.png';
 // Material UI
 import { Box, Grid2, Typography } from "@mui/material"
 

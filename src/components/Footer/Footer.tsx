@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Footer.module.css'
 // Internal Lists
-import appBarNavigation from '../../lists/appBarNavigation.tsx';
+import appBarNavigation from '@/lists/appBarNavigation';
 // Material UI
 import AppBar from '@mui/material/AppBar';
 import Container from '@mui/material/Container';

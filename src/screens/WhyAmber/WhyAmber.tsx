@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './WhyAmber.module.css';
 // Internal Lists
-import whyAmberList from '../../assets/text/whyAmber.tsx';
+import whyAmberList from '@/assets/text/whyAmber';
 // Internal Components
-import ScreenLayout from '../../components/Containers/ScreenLayout/ScreenLayout.tsx';
-import PageHeader from '../../components/Text/PageHeader/PageHeader.tsx';
+import ScreenLayout from '@/components/Containers/ScreenLayout/ScreenLayout';
+import PageHeader from '@/components/Text/PageHeader/PageHeader';
 // Material UI
 import { Typography } from '@mui/material';
 
