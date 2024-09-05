@@ -1,0 +1,18 @@
+.container {
+    height: 100vh;
+}
+
+.headerText {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.subheaderText {
+    margin-top: 10px;
+}
+
+.submitButton {
+    margin-top: 32px;
+    color: white;
+    font-weight: bold;
+}

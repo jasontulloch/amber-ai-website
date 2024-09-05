@@ -1,0 +1,15 @@
+.text {
+    margin-left: 64px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #F17127;
+    margin-bottom: 16px;
+}
+
+@media (max-width: 768px) { 
+    .text {
+        font-size: 36px;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+}

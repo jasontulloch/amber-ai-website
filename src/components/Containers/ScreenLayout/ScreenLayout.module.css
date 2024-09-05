@@ -1,0 +1,28 @@
+.container {
+    padding-top: 16px;
+    background: linear-gradient(to bottom, #F7D7B5, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF);
+    height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+.contentContainer {
+    background: linear-gradient(to bottom, #F7D7B5, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF);
+}
+
+.appBarContainer {
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-bottom: 96px;
+}
+
+.footerSpacer {
+    height: 128px;
+}
+
+@media (max-width: 768px) { 
+    .appBarContainer{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

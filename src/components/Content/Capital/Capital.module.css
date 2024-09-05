@@ -1,0 +1,44 @@
+.container {
+    justify-content: center;
+    margin-top: 164px;
+    margin-bottom: 96px;
+    margin-right: 64px;
+    margin-left: 64px;
+}
+
+.header {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: grey;
+}
+
+.imageContainer {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+.yCombinatorImage {
+    height: 75px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.generalCatalystImage {
+    height: 150px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+@media (max-width: 768px) { 
+    .container {
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+
+    .imageContainer {
+        margin-top: 64px;
+    }
+}

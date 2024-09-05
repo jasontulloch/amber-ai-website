@@ -1,0 +1,119 @@
+.container {
+    align-items: center;
+    margin-left: 64px;
+}
+
+.textContainer {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+.cursor {
+    display: inline-block;
+    width: 6px;
+    height: 1.1em; /* Same height as the text */
+    background-color: #F17127; /* Cursor color */
+    margin-left: 5px;
+    margin-right: 16px;
+    animation: blink 1s step-start infinite;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.headerText {
+    font-size: 64px;
+    line-height: 1.2;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.headerTextActive {
+    font-size: 64px;
+    font-weight: bold;
+    color: #F17127;
+    padding: 10px 30px 10px 10px;
+    border-radius: 8px;
+    min-height: 60px;
+    position: relative;
+}
+
+.subheaderTextContainer {
+    margin-top: 32px;
+}
+
+.subheaderText {
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.contactUsContainer {
+    margin-top: 32px;
+}
+
+.contactUsButton {
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 8px 16px 8px 16px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contactUsButton:hover {
+    background-color: #F5A048;
+}
+
+.learningImage {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+@media (max-width: 768px) { 
+    .container {
+        margin-left: 16px;
+    }
+
+    .textContainer {
+        margin-right: 16px;
+    }
+
+    .subheaderTextContainer {
+        margin-right: 16px;
+    }
+
+    .headerText {
+        font-size: 32px;
+    }
+
+    .headerTextActive {
+        font-size: 32px; 
+        padding: 6px 30px 6px 6px;  
+        min-height: 30px;
+    }
+
+    .cursor {
+        width: 4px;
+    }
+
+    .subheaderTextContainer {
+        margin-left: 10px;
+    }
+
+    .subheaderText {
+        font-size: 18px;
+    }
+
+    .contactUsButton {
+        margin-left: 10px;
+    }
+}
