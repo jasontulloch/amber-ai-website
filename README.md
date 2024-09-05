@@ -1,6 +1,16 @@
 # Amber AI Website
 
-This project was started by Jason Tulloch as an application for the Software Developer Intern role
+This project was started by Jason Tulloch as an application for the Software Developer Intern role. I refactored Amber AI's existing website to give it a more modern feel.
+
+## Requirements
+
+Download Node
+
+Clone this repository
+
+cd to the repository and run 'npm install'
+
+run 'npm start' to view locally
 
 ## General
 
